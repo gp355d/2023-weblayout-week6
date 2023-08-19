@@ -1,0 +1,38 @@
+.search-input{
+  line-height: 1.4375rem;
+  &:focus{
+    box-shadow: none;
+  }
+  ::placeholder{
+    color: #878787;
+  }
+}
+.search{
+  width: 53px;
+  height: 59px;
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px;
+}
+@include media-breakpoint-down(md){
+  .search{
+    width: 43px;
+    height: 43px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+  }
+}
+.menu a{
+  font-size: 1.125rem;
+  line-height: 1.3125rem;
+}
+.en-title{
+  font-family: $font-family-cursive;
+  line-height: 2.3125rem;
+}
+.ch-title{
+  line-height: 1.4375rem;
+}
