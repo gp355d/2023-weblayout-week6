@@ -1,0 +1,26 @@
+.page-link{
+  background-color: transparent;
+  // padding: 8px 15px 9px 15px;
+  padding: 8px 15px 8px 15px;
+  border: 1px solid #000;
+  line-height: 1.4375rem;
+}
+.page-link:hover {
+  background-color: $primary;
+  color: $secondary;
+  border: 1px solid #000;
+}
+.pre{
+  padding: 11px;
+}
+.next{
+  padding: 11px;
+}
+.arrow-left-icon,
+.arrow-right-icon{
+  width: 18px;
+  height: 18px;
+}
+.page-link:focus {
+  box-shadow:none;
+}
