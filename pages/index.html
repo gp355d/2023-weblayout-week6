@@ -10,6 +10,42 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
+    <!-- <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../assets/images/event/13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>隔牆有耳-沒有草東的派對</h5>
+              <p>你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！
+                帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/event/13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../assets/images/event/13.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg modal-dialog-centered">
     
@@ -29,17 +65,29 @@
         </div>
       </div>
     </div>
-    <div class="swiper mySwiper2 container">
+    <div class="swiper mySwiper2 container mb-md-11 mb-8">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/01.jpg?raw=true" alt="圖片1"></div>
-        <div class="swiper-slide"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/02.jpg?raw=true" alt="圖片2"></div>
-        <div class="swiper-slide"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/03.jpg?raw=true" alt="圖片3"></div>
-        <div class="swiper-slide"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/04.jpg?raw=true" alt="圖片4"></div>
-        <div class="swiper-slide"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/event/05.jpg?raw=true" alt="圖片5"></div>
+        <div class="swiper-slide p-0 carousel">
+          <div class="position-relative banner-outter">
+            <img src="../assets/images/event/13.jpg" alt="圖片1">
+            <h2 class="position-absolute fs-md-2 fs-4 text-white">19 MAY<br class="d-md-none d-block">2023</h2>
+          </div>
+          <div class="carousel-caption py-0">
+            <h5 class="fs-md-5 fs-7 mb-md-5 mb-0 noto-tc-serif">隔牆有耳-沒有草東的派對</h5>
+            <p class="fs-md-8 lh-base noto-tc-sans fw-normal d-md-block d-none">你各位聽團仔們！每次想跟朋友一起聽草東專場卻每一次都搶不到票？「草東沒有派對」永遠都是「草東沒有門票」！
+              帶上啤酒、野餐墊，讓我們在Live House外面一起開場「沒有草東的派對」吧！</p>
+          </div>
+        </div>
+        <div class="swiper-slide p-0"><img src="../assets/images/event/13.jpg" alt="圖片2"></div>
+        <div class="swiper-slide p-0"><img src="../assets/images/event/13.jpg" alt="圖片3"></div>
+        <div class="swiper-slide p-0"><img src="../assets/images/event/13.jpg" alt="圖片4"></div>
+        <div class="swiper-slide p-0"><img src="../assets/images/event/13.jpg" alt="圖片5"></div>
       </div>
+      <div class="swiper-button-next pe-md-10 text-white"></div>
+      <div class="swiper-button-prev ps-md-10 text-white"></div>
     </div>
-    <hr>
-    <div class="container py-11">
+    <!-- <hr> -->
+    <div class="container mb-md-11">
       <ul class="row row-cols-md-6 row-cols-3 list-unstyled gy-2">
         <li class="col">
           <a href="#" class="d-flex align-items-center h-100 justify-content-center flex-column border-primary border-2 border explore-border">
@@ -88,17 +136,15 @@
         </li>
       </ul>
     </div>
-    <div class="container pb-md-12 pb-8">
-      <h2 class="d-flex justify-content-between align-items-center border border-primary border-2 m-0 py-7 px-8 mb-md-8">
+    <div class="container mb-md-12 mb-8">
+      <h2 class="d-flex justify-content-between align-items-center border border-primary border-2 m-0 py-7 px-8 mb-md-8 mb-7">
         <span class="fs-md-1 fs-5">RECENT</span>
         <span class="fs-md-4 fs-8 noto-tc-serif fw-bold">近期活動</span>
       </h2>
-      <ul class="row list-unstyled">
+      <ul class="row list-unstyled mb-0">
         <li class="col-md-6 col-lg-4 mx-auto mb-md-11 mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">19 MAY 2023</h2>
-          <div class="test">
-            <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/01.jpg" alt="邪典電影派對——房間">
-          </div>
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">19 MAY 2023</h2>
+          <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/01.jpg" alt="邪典電影派對——房間">
           <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">邪典電影派對——房間</h3>
           <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
           <div class="bottom-btn d-flex justify-content-between border-bottom border-2 border-dark">
@@ -107,12 +153,10 @@
           </div>
         </li>
         <li class="col-md-6 col-lg-4 mx-auto mb-md-11 mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">19 MAY 2023</h2>
-          <div class="test">
-            <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/02.jpg" alt="邪典電影派對——房間">
-          </div>
-          <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">邪典電影派對——房間</h3>
-          <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">23 MAY 2023</h2>
+          <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/02.jpg" alt="邪典電影派對——房間">
+          <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">怪舞俱樂部</h3>
+          <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
           <div class="bottom-btn d-flex justify-content-between border-bottom border-2 border-dark">
             <a href="#" class="d-flex align-items-center hover-text-decoration mb-md-3 mb-2"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" class="btn-left img-fluid" alt="社群活動">社群活動</a>
             <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">開賣中 &raquo;</a>
@@ -120,10 +164,8 @@
         </li>
         
         <li class="col-md-6 col-lg-4 mx-auto mb-md-11 mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">23 MAY 2023</h2>
-          <div class="test">
-            <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/03.jpg" alt="邪典電影派對——房間">
-          </div>
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">30 MAY 2023</h2>
+          <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/03.jpg" alt="邪典電影派對——房間">
           <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">哈利波特馬拉松</h3>
           <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
           <div class="bottom-btn d-flex justify-content-between border-bottom border-2 border-dark">
@@ -131,20 +173,8 @@
             <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">檢視活動 &raquo;</a>
           </div>
         </li>
-        <!-- <li class="col-md-6 col-lg-4 mx-auto mb-md-11 mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-md-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">19 MAY 2023</h2>
-          <div class="test">
-            <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/03.jpg" alt="邪典電影派對——房間">
-          </div>
-          <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">哈利波特馬拉松</h3>
-          <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...</p>
-          <div class="bottom-btn d-flex justify-content-between border-bottom border-2 border-dark">
-            <a href="#" class="d-flex align-items-center hover-text-decoration mb-md-3 mb-2 noto-tc-serif"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" class="btn-left img-fluid" alt="社群活動">社群活動</a>
-            <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">開賣中 &raquo;</a>
-          </div>
-        </li> -->
-        <!-- <div class="col-md-6 col-lg-4 mx-auto mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-md-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">12 June 2023</h2>
+        <li class="col-md-6 col-lg-4 mx-auto mb-7">
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">12 June 2023</h2>
           <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/04.jpg" alt="邪典電影派對——房間">
           <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">皮卡丘排球大賽</h3>
           <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方式進行，是時候該證明自己...</p>
@@ -152,9 +182,9 @@
             <a href="#" class="d-flex align-items-center hover-text-decoration mb-md-3 mb-2 noto-tc-serif"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" class="btn-left img-fluid" alt="社群活動">社群活動</a>
             <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">開賣中 &raquo;</a>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto mb-7">
-          <h2 class="border-bottom border-dark border-3 fs-md-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">25 June 2023</h2>
+        </li>
+        <li class="col-md-6 col-lg-4 mx-auto mb-7">
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">25 June 2023</h2>
           <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/05.jpg" alt="邪典電影派對——房間">
           <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">酒精路跑</h3>
           <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。
@@ -163,9 +193,9 @@
             <a href="#" class="d-flex align-items-center hover-text-decoration mb-md-3 mb-2 noto-tc-serif"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" class="btn-left img-fluid" alt="社群活動">社群活動</a>
             <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">開賣中 &raquo;</a>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <h2 class="border-bottom border-dark border-3 fs-md-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5">9 July 2023</h2>
+        </li>
+        <li class="col-md-6 col-lg-4 mx-auto">
+          <h2 class="border-bottom border-dark border-3 fs-lg-3 fs-4 pb-md-3 mb-md-3 pb-2 mb-5 text-nowrap">9 July 2023</h2>
           <img class="mb-md-3 mb-2 activity-img" src="../assets/images/event/06.jpg" alt="邪典電影派對——房間">
           <h3 class="fs-md-5 fs-7 fw-bold mb-md-3 mb-2 noto-tc-serif">展覽——我的房間</h3>
           <p class="noto-tc-sans lh-base pb-md-5 border-bottom border-2 border-dark mb-md-3 pb-5 mb-2">每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。</p>
@@ -173,7 +203,7 @@
             <a href="#" class="d-flex align-items-center hover-text-decoration mb-md-3 mb-2 noto-tc-serif"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/sparkler.png?raw=true" class="btn-left img-fluid" alt="社群活動">社群活動</a>
             <a href="#" class="d-flex align-items-center hover-bg-yellow mb-md-3 mb-2 noto-tc-sans fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal">開賣中 &raquo;</a>
           </div>
-        </div> -->
+        </li>
       </ul>
     </div>
     <div class="container pb-md-12 pb-8">
@@ -211,127 +241,119 @@
         </div>
       </div>
     </div>
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7 noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7 noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7 noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7 noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7 noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
       </div>
     </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container py-20">
-
-      <ul class="row list-unstyled mt-60">
-    
-        <li class="col-lg-3 col-md-6 t">
-          <div class="item border border-2 border-dark p-3 pb-5 position-relative h-100">
-            <h2 class="position-absolute start-50 translate-middle-x mt-n10 px-3 py-2 fs-6 bg-white fw-bold h2-transform">社群活動</h2>
-            <img loading="lazy" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true" class="img-fluid w-100" alt="社群活動">
-            <p class="pt-3">無聲派對-閉閉嘴dancing</p>
+    <div class="container activity-collection">
+      <ul class="row list-unstyled gy-11">
+        <li class="col-lg-3 col-md-6">
+          <div class="activity-list border border-2 border-primary p-md-5 pb-3 p-3 pb-md-11 pb-8 position-relative h-100">
+            <h2 class="position-absolute top-0 start-50 bg-white fw-bold h2-transform fs-md-8">社群活動</h2>
+            <img loading="lazy" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true" class="img-fluid w-100 pb-md-5 pb-3" alt="社群活動">
+            <p class="fs-7 noto-tc-serif">無聲派對-閉閉嘴dancing</p>
           </div>
         </li>
     
-        <li class="col-lg-3 col-md-6 t">
-          <div class="item border border-2 border-dark p-3 pb-5 position-relative h-100">
-            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">藝文活動</h2>
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true" class="img-fluid w-100" alt="藝文活動">
-            <p class="pt-3">搶救老店大作戰</p>
+        <li class="col-lg-3 col-md-6">
+          <div class="activity-list border border-2 border-primary p-md-5 pb-3 p-3 pb-md-11 pb-8 position-relative h-100 rotate">
+            <h2 class="position-absolute top-0 start-50 bg-white fw-bold h2-transform fs-md-8">藝文活動</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true" class="img-fluid w-100 pb-md-5 pb-3" alt="藝文活動">
+            <p class="fs-7 noto-tc-serif">搶救老店大作戰</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6 t">
-          <div class="item border border-2 border-dark p-3 pb-5 position-relative h-100">
-            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">自我覺察</h2>
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true" class="img-fluid w-100" alt="自我覺察">
-            <p class="pt-3">內觀修行-部落篇</p>
+        <li class="col-lg-3 col-md-6">
+          <div class="activity-list border border-2 border-primary p-md-5 pb-3 p-3 pb-md-11 pb-8 position-relative h-100 rotate-reverse">
+            <h2 class="position-absolute top-0 start-50 bg-white fw-bold h2-transform fs-md-8">自我覺察</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true" class="img-fluid w-100 pb-md-5 pb-3" alt="自我覺察">
+            <p class="fs-7 noto-tc-serif">內觀修行-部落篇</p>
           </div>
         </li>
-        <li class="col-lg-3 col-md-6 t">
-          <div class="item border border-2 border-dark p-3 pb-5 position-relative h-100">
-            <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">聯誼活動</h2>
-            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true" class="img-fluid w-100" alt="聯誼活動">
-            <p class="pt-3">賞櫻野餐</p>
+        <li class="col-lg-3 col-md-6">
+          <div class="activity-list border border-2 border-primary p-md-5 pb-3 p-3 pb-md-11 pb-8 position-relative h-100 rotate">
+            <h2 class="position-absolute top-0 start-50 bg-white fw-bold h2-transform fs-md-8">聯誼活動</h2>
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true" class="img-fluid w-100 pb-md-5 pb-3" alt="聯誼活動">
+            <p class="fs-7 noto-tc-serif">賞櫻野餐</p>
           </div>
         </li>
     
       </ul>
     </div>
 
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mb-md-12 mb-8">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
-        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
-        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
-        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
-        <div class="swiper-slide">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7  ad noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7  ad noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7  ad noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7  ad noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
+        <div class="swiper-slide ad py-md-7 py-5 fs-md-4 fs-7  ad noto-tc-serif">活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・</div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-md-12 mb-11">
       <!-- border border-primary border-2 p-3 mb-0 border-md-end-0 border-end border-start -->
       <!-- form-content border border-primary border-2 border-bottom-0 border-top-0 border-end-0 -->
-      <div class="row g-0">
-        <div class="col-md-6">
-          <h2 class="fs-md-4 fs-5 py-md-5 px-md-8 mb-0 border border-primary border-2">#FOLLOW US</h2>
-          <div class="p-md-8 border border-primary border-2 border-top-0 border-bottom-0">
-            <p>想第一時間獲得新奇有趣的活動資訊？<br>
+      <div class="row g-0  noto-tc-sans">
+        <div class="col-md-6 mb-md-0 mb-7">
+          <div class="border-primary border-2 border-top border-start border-end">
+            <h2 class="fs-md-4 fs-5 py-5 px-md-8 px-3 mb-0 noto-tc-serif">#FOLLOW US</h2>
+          </div>
+          <div class="p-md-8 py-5 px-3 border border-primary border-2">
+            <p class="mb-md-8 mb-5">想第一時間獲得新奇有趣的活動資訊？<br>
               追蹤我們的社群吧！<br>
               也歡迎你聯繫我們，提供好玩有趣的活動企劃。</p>
-              <ul class="list-unstyle">
-                <li>4444</li>
+              <ul class="list-unstyled">
+                <li class="mb-5">
+                  <i class="p-2 me-5 bg-primary text-white icofont-ui-email"></i>
+                  <span>7tao.event@gmail.com</span>
+                </li>
+                <li class="mb-5">
+                  <i class="p-2 me-5 bg-primary text-white icofont-phone"></i>
+                  <span>09123123123</span>
+                </li>
+                <li class="mb-5">
+                  <i class="p-2 me-5 bg-primary text-white icofont-facebook"></i>
+                  <span>7TAO七逃</span>
+                </li>
               </ul>
           </div>
         </div>
-        <div class="col-md-6">
-          <!-- <h2 class="border border-primary border-2 p-3 mb-0 border-end">#subscribe us</h2>
-          <div class="form-content border border-primary border-2 border-bottom-0 border-top-0">
-            <p>訂閱電子報送折價券！<br>
+        <div class="col-md-6 d-flex flex-column justify-content-between">
+          <div class="border-primary border-2 border-top border-end border-bottom ">
+            <h2 class="fs-md-4 fs-5 py-5 px-md-8 px-3 mb-0 noto-tc-serif">#SUBSCRIBE US</h2>
+          </div>
+          <div class="p-md-8 py-5 px-3 border-primary border-start-0 border-2 h-100 border-end border-bottom border-top-0">
+            <p class="mb-md-8 mb-5">訂閱電子報送折價券！<br>
               定期精選文章資訊及最新優惠資訊，<br>
               還不通通給我訂閱起來？</p>
-              <ul>
-                <li>44444</li>
-              </ul>
-          </div> -->
+              <div class="mb-3">
+                <input type="email" class="form-control border border-primary border-2 py-5 px-7 mb-auto" id="exampleFormControlInput1" placeholder="輸入Email">
+              </div>
+          </div> 
+          <div class="d-grid gap-2 mt-auto">
+            <button class="btn btn-primary py-md-2 py-5" type="submit">確認訂閱 &raquo;</button>
+          </div>
         </div>
       </div>
     </div>
-    <figure class="text-center  border-primary border-bottom border-top border-3 mb-0">
-      <blockquote class="blockquote">
-        <p>此刻打盹，你將做夢；此刻學習，你將圓夢</p>
-      </blockquote>
-      <figcaption class="blockquote-footer text-primary mb-0">
-        我也不知道誰說的
-      </figcaption>
-    </figure>
+    <div class="border-primary border-bottom border-top border-3 mb-0">
+      <div class="container">
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>此刻打盹，你將做夢；此刻學習，你將圓夢</p>
+          </blockquote>
+          <figcaption class="blockquote-footer text-primary mb-0">
+            我也不知道誰說的
+          </figcaption>
+        </figure>
+      </div>
+    </div>
       
       
     <%- include('./layout/footer'); -%>
@@ -347,7 +369,7 @@
         slidesPerView: "auto",
 
         //跑馬燈的速度(毫秒)
-        speed: 8000,
+        speed: 12000,
 
         //是否重複
         loop: true,
@@ -363,7 +385,11 @@
       const swiper2 = new Swiper(".mySwiper2", {
         // Default parameters
         slidesPerView: 1,
-        spaceBetween: 30
+        spaceBetween: 30,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
       });
     </script>
   </body>
