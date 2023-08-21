@@ -263,3 +263,16 @@ figure{
 .slogn{
   font-style: 22px;
 }
+//table
+.table > thead {
+  border-bottom: 3px solid $primary;
+}
+// .table > tbody {
+//     border-bottom: 1px solid $primary;
+// }
+tbody > tr{
+  border-bottom: 1px solid $primary;
+}
+.buy-now{
+  line-height: 1.4375rem;
+}
