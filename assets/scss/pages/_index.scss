@@ -126,7 +126,7 @@
   border-top: 1px solid #030303;
   border-bottom: 1px solid #030303;
   border-right: 1px solid #030303;
-  border-left:3px solid #030303;
+  border-left:4px solid #030303;
 }
 
 
@@ -223,4 +223,43 @@ figure{
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+}
+////
+.date {
+  padding: 14px 24px;
+  h2 {
+    margin: 0px;
+    font-size: 22px;
+  }
+}
+.time::before {
+  content: "";
+  width: 3px;
+  height: 56px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+
+@media (min-width: 768px) {
+  .date{
+    padding: 48px 44px;
+    h2 {
+      margin-bottom: 126px;
+      font-size: 48px;
+    }
+    p {
+      font-size: 32px;
+    }
+    }
+
+  .time::before {
+    width: 2px;
+    height: 80px;
+  }
+}
+.slogn{
+  font-style: 22px;
 }

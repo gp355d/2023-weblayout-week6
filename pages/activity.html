@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>單一活動頁</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-12">
+          <div class="p-md-7 border border-primary border-3">
+            <img class="img-fluid h-100" src="../assets/images/event/09.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="d-flex flex-nowrap flex-md-column flex-row">
+            <div class="border border-primary border-3 py-md-8 px-md-10 mb-md-7">
+              <span>2023</span>
+            </div>
+            <div class="">
+              <div class="date d-flex flex-md-column flex-row align-items-center justify-content-between border border-3 border-dark position-relative">
+                <div class="d-flex flex-column align-items-center">
+                  <h2 class="text-center">
+                    MAY
+                    <br>
+                    19
+                  </h2>
+                </div>
+                <div class="time d-flex flex-column justify-content-center align-items-center">
+                  <p class="mb-0 lh-1">12:00</p>
+                  <p class="mb-0 lh-1">|</p>
+                  <p class="mb-0 lh-1">20:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container noto-tc-sans">
+      <h2 class="fs-md-2  noto-tc-serif mb-md-5 mb-2">返老還童-制服聯誼</h2>
+      <p class="slogn mb-7">穿上制服，無年齡限制，一起走上街頭、尋找青春才有的純愛心動！</p>
+      <div class="d-md-flex mb-md-11 mb-7 d-none">
+        <a href="#" class="d-block py-md-1 px-md-7 py-1 px-5 tags me-2 fs-9 fs-md-8">
+          聯誼
+        </a>
+        <a href="#" class="d-block py-md-1 px-md-7 py-1 px-5 tags me-2 fs-9 fs-md-8">
+          美食
+        </a>
+        <a href="#" class="d-block py-md-1 px-md-7 py-1 px-5 tags me-2 fs-9 fs-md-8">
+          戶外
+        </a>
+        <a href="#" class="d-block py-md-1 px-md-7 py-1 px-5 tags me-2 fs-9 fs-md-8">
+          交通旅遊
+        </a>
+      </div>  
+      <div class="border border-primary border-3 p-md-8 p-5 mb-md-11 mb-7">
+        <p class="mb-5">想回到過去？試著讓故事繼續？</p>
+        <p class="mb-5">由戀愛家教「艾德溫」主辦策劃，讓各位在安排好的青春行程中擁有自然的純愛互動體驗，互相餵食餅乾、觀察對方手相，有趣的互動環節讓你/妳怦然心動！制服由主辦方提供，妝髮造型可額外加價購！</p>
+        <p>活動中全程會有隨行攝影師，捕捉你們的純愛互動，拍攝成實境電視劇，讓你們能留下永恆的美好回憶
+        </p>
+      </div>
+      </div>
+      <div class="container">
+        <h2 class="d-flex justify-content-between align-items-center border border-primary border-3 mb-md-5 py-7 px-8">
+          <span class="fs-md-1 fs-5">TICKET</span>
+          <span class="fs-md-4 fs-8 noto-tc-serif fw-bold">購票資訊</span>
+        </h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">活動日期</th>
+              <th scope="col">票種</th>
+              <th scope="col">票價</th>
+              <th scope="col">購票</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">2023/5/12</th>
+              <td>普通票</td>
+              <td>$600</td>
+              <td><a href="#" class="btn btn-transprent border-3 border border-primary">立即購票</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2023/5/12</th>
+              <td>改頭換面票（含大改造）</td>
+              <td>$3600</td>
+              <td><a href="#" class="btn btn-transprent border-3 border border-primary">立即購票</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2023/5/12</th>
+              <td>必勝票（含戀愛小抄）</td>
+              <td>$8000</td>
+              <td><a href="#" class="btn btn-transprent border-3 border border-primary">立即購票</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+        <%- include('./layout/footer'); -%>
+
+          <script type="module" src="../main.js"></script>
+</body>
+
+</html>
