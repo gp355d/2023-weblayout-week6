@@ -276,3 +276,44 @@ tbody > tr{
 .buy-now{
   line-height: 1.4375rem;
 }
+//checkout
+.number {
+  border: 1px solid #000;
+  width: 32px;
+  height: 32px;
+  background-color: #f3f1e5;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .number {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+}
+.number-active {
+  background-color: #000;
+  color: #FBFF22;
+}
+.pay-list{
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+@include media-breakpoint-down(md){
+  .pay-list{
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+.pay-list::before {
+  width: 83%;
+  height: 1px;
+  content: "";
+  background-color: black;
+  /*位移*/
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  z-index: 1;
+}
