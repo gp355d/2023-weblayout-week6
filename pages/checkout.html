@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>單一活動頁</title>
+  <title>結帳頁</title>
 </head>
 
 <body>
@@ -31,10 +31,10 @@
     </div>
   </div>
   <div class="container">
-    <h2 class="fs-md-3 fs-4 text-center mb-md-8 mb-7">返老還童-制服聯誼</h2>
+    <h2 class="fs-md-3 fs-4 text-center mb-md-8 mb-7 noto-tc-serif">返老還童-制服聯誼</h2>
     <div class="row d-flex justify-content-center mb-md-11 mb-8">
-      <div class="col-md-6">
-        <table class="table">
+      <div class="col-md-6 checkout">
+        <table class="table noto-tc-sans">
           <thead>
             <tr>
               <th colspan="2" class="p-0"></th>
@@ -42,7 +42,7 @@
           </thead>
           <tbody>
             <tr class="col">
-              <th scope="row">日期</th>
+              <th scope="row" class="noto-tc-serif">日期</th>
               <td class="">
                 <div class="d-flex justify-content-end">
                   2023/5/12
@@ -50,7 +50,7 @@
               </td>
             </tr>
             <tr class="col">
-              <th scope="row">票種</th>
+              <th scope="row" class="noto-tc-serif">票種</th>
               <td>
                 <div class="d-flex justify-content-end">
                   改頭換面票（含大改造）
@@ -70,31 +70,33 @@
       </div>
     </div>
   </div>
-  <div class="container pb-md-12 pb-11 border-bottom border-3 border-primary">
-    <div class="row justify-content-center">
-      <h2 class="d-flex flex-column justify-content-center align-items-center mb-5">
-        <img src="../assets/images/sparkler.png" class="mb-5" width="32" height="32" alt="">
-        <span>聯絡人資料</span>
-      </h2>
-      <div class="col-md-6">
-        <form class="d-flex flex-column justify-content-center">
-          <div class="mb-5">
-            <label for="name" class="form-label">聯絡人姓名</label>
-            <input type="email" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="name" aria-describedby="emailHelp" placeholder="請輸入聯絡人名稱">
-          </div>
-          <div class="mb-5">
-            <label for="email" class="form-label">Email</label>
-            <input type="password" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="email" placeholder="請輸入Email">
-          </div>
-          <div class="mb-md-8 mb-7">
-            <label for="cellphone" class="form-label">手機</label>
-            <input type="phone" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="cellphone" placeholder="請輸入手機號碼">
-          </div>
-          <div class="d-flex flex-column justify-content-center align-items-center">
-            <button type="submit" class="btn btn-primary w-md-50 w-100 mb-5">確認表單資料 &raquo;</button>
-            <button type="button" class="btn w-50">取消購票</button>
-          </div>
-        </form>
+  <div class="border-bottom border-3 border-primary">
+    <div class="container pb-md-12 pb-11">
+      <div class="row justify-content-center">
+        <h2 class="d-flex flex-column justify-content-center align-items-center mb-5 noto-tc-serif">
+          <img src="../assets/images/sparkler.png" class="mb-5" width="32" height="32" alt="">
+          <span>聯絡人資料</span>
+        </h2>
+        <div class="col-md-6">
+          <form class="d-flex flex-column justify-content-center noto-tc-sans">
+            <div class="mb-5">
+              <label for="name" class="form-label">聯絡人姓名</label>
+              <input type="email" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="name" aria-describedby="emailHelp" placeholder="請輸入聯絡人名稱">
+            </div>
+            <div class="mb-5">
+              <label for="email" class="form-label">Email</label>
+              <input type="password" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="email" placeholder="請輸入Email">
+            </div>
+            <div class="mb-md-8 mb-7">
+              <label for="cellphone" class="form-label">手機</label>
+              <input type="phone" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="cellphone" placeholder="請輸入手機號碼">
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <button type="submit" class="btn btn-primary w-md-50 w-100 mb-5 py-2">確認表單資料 &raquo;</button>
+              <button type="button" class="btn w-md-50 w-100 py-2">取消購票</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
