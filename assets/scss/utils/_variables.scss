@@ -40,7 +40,7 @@ $blue:    #030303;//#0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #d63384 !default;
-$red:     #dc3545 !default;
+$red:     #C96464;//#dc3545 !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #198754 !default;
@@ -390,14 +390,32 @@ $spacers: (
   4: $spacer * .875,// 14px
   5: $spacer,// 16px
   6: $spacer * 1.125,// 18px
-  7: $spacer *  1.5,// 24px
-  8: $spacer * 2,// 32px
-  9: $spacer * 2.25,// 36px
-  10: $spacer * 2.5,// 40px
-  11: $spacer * 3,// 48px
-  12: $spacer * 3.75// 60px
+  7: $spacer * 1.25,// 20px
+  8:  $spacer * 1.375,//22px
+  9: $spacer *  1.5,// 24px
+
+  10: $spacer * 2,// 32px
+  11: $spacer * 2.25,// 36px
+  12: $spacer * 2.5,// 40px
+  13: $spacer * 3,// 48px
+  14: $spacer * 3.75// 60px
 ) !default;
-// scss-docs-end spacer-variables-maps
+// $spacers: (
+//   0: 0,
+//   1: $spacer * .25,//4px
+//   2: $spacer * .5,// 8px 
+//   3: $spacer * .75,// 12px
+//   4: $spacer * .875,// 14px
+//   5: $spacer,// 16px
+//   6: $spacer * 1.125,// 18px
+//   7: $spacer *  1.5,// 24px
+//   8: $spacer * 2,// 32px
+//   9: $spacer * 2.25,// 36px
+//   10: $spacer * 2.5,// 40px
+//   11: $spacer * 3,// 48px
+//   12: $spacer * 3.75// 60px
+// ) !default;
+// // scss-docs-end spacer-variables-maps
 
 // Position
 //
