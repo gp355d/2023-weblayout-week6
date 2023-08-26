@@ -11,14 +11,14 @@
 
 <body>
   <%- include('./layout/header'); -%>
-  <div class="border-bottom border-3 border-primary">
+  <div class="border-bottom border-3 border-primary min-height">
     <div class="container">
       <div class="row justify-content-center login">
-        <h2 class="d-flex flex-column justify-content-center align-items-center mb-8 fs-5 login">
+        <h2 class="d-flex flex-column justify-content-center align-items-center mb-10 fs-5 login">
           <img src="../assets/images/sparkler.png" class="mb-5" width="32" height="32" alt="">
           <span>會員登入</span>
         </h2>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-8">
           <form>
             <div class="mb-5">
               <label for="account" class="form-label">帳號</label>
@@ -28,7 +28,7 @@
               <label for="exampleInputPassword1" class="form-label">密碼</label>
               <input type="password" class="form-control py-2 ps-5 fs-6 border-primary border-3 border" id="exampleInputPassword1" placeholder="請輸入密碼">
             </div>
-            <button type="submit" class="btn btn-primary w-100 py-2">登入  &raquo;</button>
+            <button type="submit" class="btn btn-primary w-100 py-md-2 py-5 fs-md-6 fs-7">登入  &raquo;</button>
           </form>
         </div>
       </div>

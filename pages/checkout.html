@@ -6,20 +6,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>結帳頁</title>
+  <%- include('./layout/head'); -%>
 </head>
 
 <body>
   <%- include('./layout/header'); -%>
-  <div class="container mb-md-11">
+  <div class="container mb-md-13">
     <div class="row">
       <div class="col-md-6 mx-auto">
         <ol class="pay-list d-flex justify-content-between list-unstyled pe-0 position-relative">
           <li class="d-flex flex-column align-items-center">
-            <p class="number d-flex justify-content-center align-items-center number-active mb-md-2 mb-1">1</p>
+            <p class="number d-flex justify-content-center align-items-center number-active mb-md-2 mb-1">
+              <i class="icofont-verification-check"></i>
+            </p>
             <p class="fw-bold mb-0">訂單確認</p>
           </li>
           <li class="d-flex flex-column align-items-center">
-            <p class="number d-flex justify-content-center align-items-center mb-md-2 mb-1">2</p>
+            <p class="number d-flex justify-content-center align-items-center mb-md-2 mb-1 number-active">2</p>
             <p class="fw-bold mb-0">結帳付款</p>
           </li>
           <li class="d-flex flex-column align-items-center">
@@ -31,9 +34,9 @@
     </div>
   </div>
   <div class="container">
-    <h2 class="fs-md-3 fs-4 text-center mb-md-8 mb-7 noto-tc-serif">返老還童-制服聯誼</h2>
-    <div class="row d-flex justify-content-center mb-md-11 mb-8">
-      <div class="col-md-6 checkout">
+    <h2 class="fs-md-3 fs-4 text-center mb-md-10 mb-9 noto-tc-serif">返老還童-制服聯誼</h2>
+    <div class="row justify-content-center mb-md-13 mb-10">
+      <div class="col-lg-6 col-md-8 checkout">
         <table class="table noto-tc-sans">
           <thead>
             <tr>
@@ -43,7 +46,7 @@
           <tbody>
             <tr class="col">
               <th scope="row" class="noto-tc-serif">日期</th>
-              <td class="">
+              <td>
                 <div class="d-flex justify-content-end">
                   2023/5/12
                 </div>
@@ -71,10 +74,10 @@
     </div>
   </div>
   <div class="border-bottom border-3 border-primary">
-    <div class="container pb-md-12 pb-11">
+    <div class="container pb-md-14 pb-13">
       <div class="row justify-content-center">
         <h2 class="d-flex flex-column justify-content-center align-items-center mb-5 noto-tc-serif">
-          <img src="../assets/images/sparkler.png" class="mb-5" width="32" height="32" alt="">
+          <img src="../assets/images/sparkler.png" class="mb-5" width="32" height="32" alt="icon">
           <span>聯絡人資料</span>
         </h2>
         <div class="col-md-6">
@@ -87,13 +90,13 @@
               <label for="email" class="form-label">Email</label>
               <input type="password" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="email" placeholder="請輸入Email">
             </div>
-            <div class="mb-md-8 mb-7">
+            <div class="mb-md-10 mb-9">
               <label for="cellphone" class="form-label">手機</label>
-              <input type="phone" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="cellphone" placeholder="請輸入手機號碼">
+              <input type="tel" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2" id="cellphone" placeholder="請輸入手機號碼">
             </div>
             <div class="d-flex flex-column justify-content-center align-items-center">
-              <button type="submit" class="btn btn-primary w-md-50 w-100 mb-5 py-2">確認表單資料 &raquo;</button>
-              <button type="button" class="btn w-md-50 w-100 py-2">取消購票</button>
+              <button type="submit" class="btn btn-primary w-md-50 w-100 mb-5 py-2 fs-6">確認表單資料 &raquo;</button>
+              <button type="button" class="btn w-md-50 w-100 py-2 fs-6">取消購票</button>
             </div>
           </form>
         </div>
