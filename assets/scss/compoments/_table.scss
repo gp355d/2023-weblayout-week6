@@ -13,6 +13,9 @@
 .table.checkout > :not(caption) > * > * {
   padding: 8px 0;
 }
+.table.complete > :not(caption) > * > * {
+  padding: 8px 0;
+}
 @include media-breakpoint-down(md){
     .table.pay > :not(caption) > * > * {
       padding: 16px 0 19px 0;
@@ -26,6 +29,10 @@ tbody > tr{
 }
 .buy-now{
   line-height: 1.4375rem;
+  &:hover{
+    background-color: $primary;
+    color: $secondary;
+  }
 }
 
 .form-control {
