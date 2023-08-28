@@ -1,3 +1,43 @@
+.hamburger {
+  position: relative;
+  width: 54px;
+  height: 43px;
+  border: 1px solid $primary;
+  background: #f3f1e5;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 4px 12px;
+}
+.hamburger::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 2px;
+  background: $primary;
+  box-shadow: $primary 0 6px 0 0, $primary 0 -6px 0 0;
+}
+.navbar-toggler-icon{
+  background-image: none;
+}
+.navbar-toggler:focus {
+  box-shadow:none;
+}
+@include media-breakpoint-down(sm){
+  .logo{
+    height:40px;
+  }
+}
+.search-area{
+  width: 25%;
+}
+@include media-breakpoint-down(md){
+  .search-area{
+    width: 50%;
+  }
+}
 .search-input{
   line-height: 1.4375rem;
   &:focus{
@@ -26,8 +66,10 @@
   }
 }
 .menu a{
-  font-size: 1.125rem;
   line-height: 1.3125rem;
+  &:hover{
+    color: #9C9E18;
+  }
 }
 .en-title{
   font-family: $font-family-cursive;

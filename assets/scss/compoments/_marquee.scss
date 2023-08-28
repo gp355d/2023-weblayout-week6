@@ -1,0 +1,23 @@
+.swiper-slide.ad {
+  line-height: 2.875rem;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  width: auto;
+  color: #fbff22;
+  background-color: $primary;
+}
+@include media-breakpoint-down(md){
+  .swiper-slide.ad {
+    line-height: 1.4375rem;
+  }
+}
+.activity-collection{
+  padding-top: 36.81px;
+  padding-bottom: 54.78px;
+}
+@include media-breakpoint-down(md){
+  .activity-collection{
+    padding-top: 48px;
+    padding-bottom: 43.03px;
+  }
+}

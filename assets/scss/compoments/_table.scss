@@ -1,0 +1,39 @@
+.table > :not(caption) > * > * {
+  padding: 16px 8px;
+  font-size: 16px;
+}
+@include media-breakpoint-down(md){
+  .table > :not(caption) > * > * {
+    font-size: 14px;
+  }
+}
+.table.pay > :not(caption) > * > * {
+  padding: 8px 0;
+}
+.table.checkout > :not(caption) > * > * {
+  padding: 8px 0;
+}
+@include media-breakpoint-down(md){
+    .table.pay > :not(caption) > * > * {
+      padding: 16px 0 19px 0;
+    }
+}
+.table > thead {
+  border-bottom: 3px solid $primary;
+}
+tbody > tr{
+  border-bottom: 1px solid $primary;
+}
+.buy-now{
+  line-height: 1.4375rem;
+}
+
+.form-control {
+  color: #878787;
+  &:focus {
+    color: #878787;
+  }
+}
+.form-text {
+  color: #4F4F4F;
+}

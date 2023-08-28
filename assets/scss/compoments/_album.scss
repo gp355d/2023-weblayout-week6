@@ -1,0 +1,30 @@
+
+.album-list {
+	img {
+		object-fit: cover;
+		height: 274px;
+	}
+  h2{
+    padding: 9.1px 16.52px;
+  }
+}
+@include media-breakpoint-down(sm){
+  .album-list {
+    img {
+      height: 267px;
+    }
+  }
+
+}
+.h2-transform {
+	transform: translate(-50%, -50%) rotate(-4deg);
+}
+
+li{
+  .rotate{
+    transform: rotate(2deg);
+  }
+  .rotate-reverse {
+    transform: rotate(-2deg);
+   }
+}

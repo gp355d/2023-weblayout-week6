@@ -1,0 +1,38 @@
+.date {
+  padding: 48px 0;
+  h2 {
+    margin: 0px;
+    font-size: 48px;
+  }
+}
+@include media-breakpoint-down(lg){
+  .date{
+    padding: 12px 24px;
+    h2 {
+      margin-bottom: 0;
+      font-size: 22px;
+    }
+    p {
+      font-size: 16px;
+    }
+    }
+
+  .time::before {
+    width: 2px;
+    height: 80px;
+  }
+}
+
+.time::before {
+  content: "";
+  width: 3px;
+  height: 56px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(30deg);
+}
+.slogn{
+  font-size: 22px;
+}

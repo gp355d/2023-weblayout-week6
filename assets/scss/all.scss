@@ -47,8 +47,17 @@
 @import "../../node_modules/bootstrap/scss/utilities/api";
 // @import "../../node_modules/bootstrap";
 
-@import './layout/header.scss';
 @import './layout/footer.scss';
 @import './pages/index.scss';
 @import "../../assets/scss/compoments/input_search";
+@import "../../assets/scss/compoments/banner";
+@import "../../assets/scss/compoments/category_links";
+@import "../../assets/scss/compoments/marquee";
+@import "../../assets/scss/compoments/album";
+@import "../../assets/scss/compoments/figure";
+@import "../../assets/scss/compoments/date";
+@import "../../assets/scss/compoments/tags";
+@import "../../assets/scss/compoments/table";
+@import "../../assets/scss/compoments/cards";
 @import "../../assets/scss/compoments/page";
+@import "../../assets/scss/compoments/time_line";

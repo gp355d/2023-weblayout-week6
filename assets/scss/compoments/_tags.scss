@@ -1,0 +1,11 @@
+.tags{
+  border-top: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+  border-right: 1px solid $primary;
+  border-left:4px solid $primary;
+  &:hover{
+    border-left:4px solid $secondary;
+    background-color: $primary;
+    color: #fff;
+  }
+}

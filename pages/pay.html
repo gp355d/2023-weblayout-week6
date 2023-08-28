@@ -11,18 +11,18 @@
 
 <body>
   <%- include('./layout/header'); -%>
-  <div class="container mb-md-13">
+  <div class="container mb-md-13 mb-10 mt-md-14 mt-9">
     <div class="row">
       <div class="col-md-6 mx-auto">
-        <ol class="pay-list d-flex justify-content-between list-unstyled pe-0 position-relative">
+        <ol class="step d-flex justify-content-between list-unstyled pe-0 position-relative">
           <li class="d-flex flex-column align-items-center">
-            <p class="number d-flex justify-content-center align-items-center number-active mb-md-2 mb-1">
+            <p class="number d-flex justify-content-center align-items-center step-active mb-md-2 mb-1 bg-primary">
               <i class="icofont-verification-check"></i>
             </p>
             <p class="fw-bold mb-0">訂單確認</p>
           </li>
           <li class="d-flex flex-column align-items-center">
-            <p class="number d-flex justify-content-center align-items-center number-active mb-md-2 mb-1">2</p>
+            <p class="number d-flex justify-content-center align-items-center step-active mb-md-2 mb-1 bg-primary">2</p>
             <p class="fw-bold mb-0">結帳付款</p>
           </li>
           <li class="d-flex flex-column align-items-center">
@@ -34,11 +34,15 @@
     </div>
   </div>
   <div class="container">
-    <h2 class="fs-md-3 fs-4 text-center mb-md-10 mb-9 noto-tc-serif">返老還童-制服聯誼</h2>
-    <div class="row d-flex justify-content-center mb-md-11 mb-8">
-      <span class="fs-8 text-secondary bg-primary py-2 text-center mb-md-10 mb-9">您的訂單已保留，請在2023/5/30 04:32 前完成繳費。若逾期未繳款，系統將取消您的訂單。</span>
-      <div class="col-md-6 pay">
-        <table class="table noto-tc-sans">
+    <h2 class="fs-md-3 fs-4 mb-5 noto-tc-serif text-start text-md-center">返老還童-制服聯誼</h2>
+    <div class="row d-flex justify-content-center">
+      <div class="col-md-7 d-flex justify-content-center">
+        <span class="fs-8 text-secondary bg-primary py-2 px-3 text-center mb-md-10 mb-9">您的訂單已保留，請在2023/5/30 04:32 前完成繳費。若逾期未繳款，系統將取消您的訂單。</span>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center mb-md-13 mb-10">
+      <div class="col-md-6">
+        <table class="table pay noto-tc-sans mb-0">
           <thead>
             <tr>
               <th colspan="2" class="p-0"></th>
@@ -78,7 +82,7 @@
             <div class="mb-5">
               <label for="id-number" class="form-label">取票資訊</label>
               <input type="email" class="form-control fs-md-6 py-2 ps-5 border border-primary border-2 mb-1" id="id-number" aria-describedby="emailHelp" placeholder="請輸入身分證字號或護照號碼">
-              <div class="form-text id-number-input m-0">請輸入您的 <span class="text-danger">身分證字號</span> 供取票使用，外籍人士請輸入 <span class="text-danger">護照號碼</span></div>
+              <div class="form-text m-0 fs-8">請輸入您的 <span class="text-danger">身分證字號</span> 供取票使用，外籍人士請輸入 <span class="text-danger">護照號碼</span></div>
             </div>
             <span class="mb-2">付款方式</span>
             <div class="form-check mb-5">
@@ -94,7 +98,7 @@
               </label>
             </div>
             <div class="d-flex flex-column justify-content-center align-items-center">
-              <button type="submit" class="btn btn-primary w-lg-50 w-100 mb-5 py-2 fs-6">確認訂單並繳費 $8000 &raquo;</button>
+              <button type="submit" class="btn btn-primary w-lg-75 w-100 mb-5 py-2 fs-6">確認訂單並繳費 $8000 &raquo;</button>
             </div>
           </form>
         </div>

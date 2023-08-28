@@ -1,13 +1,8 @@
-.footer{
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 .copyright{
   line-height: 1.4375rem;
 }
 @include media-breakpoint-down(sm){
   .copyright{
-    font-size: 0.875rem;
     line-height: 1.25rem;
   }
 }
