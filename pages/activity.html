@@ -25,11 +25,11 @@
             </div>
               <div class="flex-grow-1 date d-flex flex-md-column flex-row align-items-center justify-content-between border border-3 border-dark position-relative">
                 <div class="d-flex flex-column align-items-center">
-                  <h2 class="text-center">
+                  <p class="text-center">
                     MAY
                     <br>
                     19
-                  </h2>
+                  </p>
                 </div>
                 <div class="time d-flex flex-column justify-content-center align-items-center">
                   <p class="mb-0 lh-1 fs-lg-4">12:00</p>
@@ -65,7 +65,8 @@
         </p>
       </div>
       </div>
-      <div class="order container border-bottom border-3 border-primary pb-md-14 pb-13">
+      <div class="order border-bottom border-3 border-primary pb-md-14 pb-13">
+        <div class="container">
         <h2 class="d-flex justify-content-between align-items-center border border-primary border-3 mb-md-5 py-9 px-10">
           <span class="fs-md-1 fs-5">TICKET</span>
           <span class="fs-md-4 fs-8 noto-tc-serif fw-bold">購票資訊</span>
@@ -73,10 +74,10 @@
         <table class="table mb-0 activity">
           <thead>
             <tr>
-              <th scope="col" class="col-3 col-md-1 fs-8">活動日期</th>
-              <th scope="col" class="col-5 col-md-4 fs-8">票種</th>
-              <th scope="col" class="col-1 col-md-3 fs-8">票價</th>
-              <th scope="col" class="col-3 col-md-4 fs-8">購票</th>
+              <th width="25%" scope="col" class="fs-8">活動日期</th>
+              <th width="25%" scope="col" class="fs-8">票種</th>
+              <th width="35%" scope="col" class="fs-8">票價</th>
+              <th scope="col" class="fs-8">購票</th>
             </tr>
           </thead>
           <tbody class="noto-tc-sans align-middle">
@@ -109,6 +110,7 @@
             </tr>
           </tbody>
         </table>
+        </div>
       </div>
         <%- include('./layout/footer'); -%>
 
