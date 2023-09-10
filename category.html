@@ -6,109 +6,163 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>活動分類頁</title>
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">    <script type="module" crossorigin src="/2023-weblayout-week6/assets/main-2adf3409.js"></script>
-    <link rel="stylesheet" href="/2023-weblayout-week6/assets/main-d0258b15.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">    <script type="module" crossorigin src="/2023-weblayout-week6/assets/main-27157189.js"></script>
+    <link rel="stylesheet" href="/2023-weblayout-week6/assets/main-18783aef.css">
+    <link rel="stylesheet" href="/2023-weblayout-week6/assets/icofont-a0c64401.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-transprent py-md-7 py-3 border-3 border-bottom border-primary">
-  <div class="container">
+    <nav class="position-relative navbar navbar-expand-lg navbar-light bg-transprent py-md-7 py-3 border-3 border-bottom border-primary">
+  <!-- <div class="border-3 border-top position-relative"> -->
+
+  <div class="container" style="
+    /* justify-content: start; */
+    flex-wrap: nowrap;
+">
     <a class="navbar-brand" href="./index.html">
-      <h1 class="mb-0"><img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATESURBVHgB7Z0xTFNRFIYvtBo0xldDjCEOJXFwk0Gjmw4aNnUgsukgkUkcCGyEwbhpHIAJooOOxgHYTBx0w+hQNxOH1sQQVLRFo0RRvP+jr719YGmxlPufnC8x9jXPBt/HOfeccx+PlkQisWoU72k1CgUqigQVRUIy/sbyStooO09bMldxrBFFgooiQUWRoKJIUFEkqCgSVBQJKooEFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJIgTlcn8NLnsipGGOFGF/B/z2sqSRtIIA5JWTYuRhjhRuexvI/GnHsSJyubkrU9AnCisUfgjDXmpDxElMPcJXKNkpj5R5bmb8qQJEyVKaiEB5EaUMGnCRJWrCPRTkhAlKi+wLI+QFVGFchTlC7KkeS+qnijJO6mv1qYXn88Qid6Lwnj15PF58/zZsmkkkHPrZsF0n10wqZT/icX7rzCwF/HCxT3hBR0e/FL1XLd3qtZHQfqpE/NWVN7cuXvAMECxRg3c2G/SnUkzPrZkjh55/1/N7IT9DEjHZ1y3n3v6TJthgEIUomrqXnv4Gv0RomFm+oepl2tXF81QMSrT6SRNNAGaqg/f+beLFxbrS2/Ph3CNcXGbXLfqw/mIoocPvoXHWJOePD1kmKAqz5ECL1/ZVzrGGhOXFeFWff19ixXFyKSNTqRSJuj6qKn77RXrSjVZAAXIzPT30vHIaMoWJ3sNG5QN76PHBysuNmSNj31dd97a+0ulY0gaGQ0MIy3xBysyPbQK0eKKqAabJFEPrUJxUcvFr/U8n/FmRY16I1Ru0eS7UCiPd9zeCRVdPfdFzNpSftYp51Gal14XiwpUgkHQGrYCqVRL+DfO82Vq0bTUhwudyfwy76yIrH29JmQllOH7bixkQlokr9MeH+vaFR53de0228GOpT4IwXdqdOcJXjHM2CIQ2eXbOlfDiE4Fzfv6vSkmcCEQbfni7V6YhGPbIpqIV8zxYru3mw1s3XI+SnER5dRn012QKL6XKKXHneq34hHlzRqVCteG+tMIZne1iGIvJqirPvRJQ5tM1KPzhms4z2doRcUnEuiT3BTnzgYB+q1LPR9pt+spRcUlYbtio9Q2EHt/1o6Seq0sRuhEYXvDlYRRUrXtivhEAusZtjvYoBKFyq+/71PpGOltsrhPBYJ/lPtxWdju2Gg26DNUorrPLZTWGGx3YE/J7cXcvsadPgDIwjA3On948HPD78PYTmhEoWqLeikUCdjuqJfzNk3Ovewo9UZIgSzFBYUofOejakOUIIpQJGwVSHrz9nD4GWicJ0hSIIUo9EpYY+ZedVS9GcWdImw2UUBUQjo2FRmiyvv9aIyT4mtRo4D0F1a+imoAQR2C1oa+W/l3egNmU4mGqqCZk+1mIPYRO250SUCUKGxPRAREe121IEuU0+SqKBLikwl2hKW+shymbf5aEPeciVCWPhDEf3A/hLRoAjIjSiDi/ledtojQx8ARgF5KH6xIQDqNO1jliRK36ka3GkuD+sduJKO/K54UFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJKgoElQUCSqKBBVFgooiQUWRoKJIWHcXkuInGlEkqCgSVBQJfwFJWMcKLx/BoQAAAABJRU5ErkJggg==" alt="logo"  height="53"></h1>
+      <h1 class="mb-0"><img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATESURBVHgB7Z0xTFNRFIYvtBo0xldDjCEOJXFwk0Gjmw4aNnUgsukgkUkcCGyEwbhpHIAJooOOxgHYTBx0w+hQNxOH1sQQVLRFo0RRvP+jr719YGmxlPufnC8x9jXPBt/HOfeccx+PlkQisWoU72k1CgUqigQVRUIy/sbyStooO09bMldxrBFFgooiQUWRoKJIUFEkqCgSVBQJKooEFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJIgTlcn8NLnsipGGOFGF/B/z2sqSRtIIA5JWTYuRhjhRuexvI/GnHsSJyubkrU9AnCisUfgjDXmpDxElMPcJXKNkpj5R5bmb8qQJEyVKaiEB5EaUMGnCRJWrCPRTkhAlKi+wLI+QFVGFchTlC7KkeS+qnijJO6mv1qYXn88Qid6Lwnj15PF58/zZsmkkkHPrZsF0n10wqZT/icX7rzCwF/HCxT3hBR0e/FL1XLd3qtZHQfqpE/NWVN7cuXvAMECxRg3c2G/SnUkzPrZkjh55/1/N7IT9DEjHZ1y3n3v6TJthgEIUomrqXnv4Gv0RomFm+oepl2tXF81QMSrT6SRNNAGaqg/f+beLFxbrS2/Ph3CNcXGbXLfqw/mIoocPvoXHWJOePD1kmKAqz5ECL1/ZVzrGGhOXFeFWff19ixXFyKSNTqRSJuj6qKn77RXrSjVZAAXIzPT30vHIaMoWJ3sNG5QN76PHBysuNmSNj31dd97a+0ulY0gaGQ0MIy3xBysyPbQK0eKKqAabJFEPrUJxUcvFr/U8n/FmRY16I1Ru0eS7UCiPd9zeCRVdPfdFzNpSftYp51Gal14XiwpUgkHQGrYCqVRL+DfO82Vq0bTUhwudyfwy76yIrH29JmQllOH7bixkQlokr9MeH+vaFR53de0228GOpT4IwXdqdOcJXjHM2CIQ2eXbOlfDiE4Fzfv6vSkmcCEQbfni7V6YhGPbIpqIV8zxYru3mw1s3XI+SnER5dRn012QKL6XKKXHneq34hHlzRqVCteG+tMIZne1iGIvJqirPvRJQ5tM1KPzhms4z2doRcUnEuiT3BTnzgYB+q1LPR9pt+spRcUlYbtio9Q2EHt/1o6Seq0sRuhEYXvDlYRRUrXtivhEAusZtjvYoBKFyq+/71PpGOltsrhPBYJ/lPtxWdju2Gg26DNUorrPLZTWGGx3YE/J7cXcvsadPgDIwjA3On948HPD78PYTmhEoWqLeikUCdjuqJfzNk3Ovewo9UZIgSzFBYUofOejakOUIIpQJGwVSHrz9nD4GWicJ0hSIIUo9EpYY+ZedVS9GcWdImw2UUBUQjo2FRmiyvv9aIyT4mtRo4D0F1a+imoAQR2C1oa+W/l3egNmU4mGqqCZk+1mIPYRO250SUCUKGxPRAREe121IEuU0+SqKBLikwl2hKW+shymbf5aEPeciVCWPhDEf3A/hLRoAjIjSiDi/ledtojQx8ARgF5KH6xIQDqNO1jliRK36ka3GkuD+sduJKO/K54UFUWCiiJBRZGgokhQUSSoKBJUFAkqigQVRYKKIkFFkaCiSFBRJKgoElQUCSqKBBVFgooiQUWRoKJIWHcXkuInGlEkqCgSVBQJfwFJWMcKLx/BoQAAAABJRU5ErkJggg==" alt="logo" height="53"></h1>
     </a>
     <div class="d-flex align-items-center me-5 d-none d-lg-flex">
       <span class="en-title fs-4 me-1">7TAO</span>
       <span class="ch-title fs-8">活動訂票網</span>
     </div>
-    <div class="search-area">
-      <form class="d-flex align-items-center">
-        <input class="form-control border-primary py-md-5 ps-md-9 pe-md-0 py-2 ps-3 border border-2 search-input" type="search"
-          placeholder="探索活動" aria-label="Search">
+
+    <!-- <div class="w-50 w-lg-25"> -->
+      <form class="d-flex align-items-center w-50 w-lg-25">
+        <input class="form-control border-primary py-md-5 ps-md-9 pe-md-0 py-2 ps-3 border border-2 search-input" type="search" placeholder="探索活動" aria-label="Search">
         <a class="d-flex align-items-center text-secondary bg-primary search" href="#">
           <i class="icofont-search-1 search-icon"></i>
         </a>
+        
       </form>
-    </div>
-    <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="ms-auto d-none d-lg-block">
+          <ul class="fs-18 d-none d-lg-flex list-unstyled mb-0 pt-7 pb-3 py-lg-0">
+              <li class="me-md-4 py-0 py-lg-0 mb-5 mb-lg-0"><a href="register.html" class="navLink d-flex align-items-center fs-7"><i class="icofont-ui-file me-1 "></i><span>REGISTER</span></a></li>
+              <li class="py-0 py-lg-0 mb-0"><a href="login.html" class="navLink d-flex align-items-center fs-7"><span><i class="icofont-ui-user me-1"></i></span><span>LOGIN</span></a></li>
+          </ul>
+        </div><!-- </div> -->
+    <button class="navbar-toggler hamburger d-block d-lg-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="menu navbar-nav ms-auto mb-0 pt-7 pb-3 py-lg-0">
-        <li class="nav-item k me-md-4 py-0 py-lg-0 mb-5 mb-lg-0"><a href="#" class="d-md-block fs-7"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
-        <li class="nav-item k py-0 py-lg-0 mb-0"><a href="./login.html" class="fs-7 d-md-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
-      </ul>
-    </div>
+
   </div>
-</nav>    <div class="container mt-md-10 mt-5 mb-md-10 mb-3">
+  <!-- <div class="collapse border-3 border-top" id="navbarSupportedContent">
+    <ul class="menu navbar-nav ms-auto mb-0 pt-7 pb-3 py-lg-0">
+      <li class="nav-item me-md-4 py-0 py-lg-0 mb-5 mb-lg-0"><a href="#" class="d-md-block fs-7"><i class="icofont-ui-file me-1"></i>REGISTER</a></li>
+      <li class="nav-item py-0 py-lg-0 mb-0"><a href="./login.html" class="fs-7 d-md-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
+    </ul>
+  </div> -->
+  <!-- </div> -->
+</nav>
+<div class="nav navbar-collapse d-lg-none collapse border-bottom border-3 border-primary" id="navbarSupportedContent" style="">
+  <ul class="menu navbar-nav ms-md-auto mb-0 py-lg-0 py-9 px-3">
+    <li class="nav-item me-md-4 py-0 py-lg-0 mb-5 mb-lg-0"><a href="#" class="d-md-block fs-7"><i class="icofont-ui-file me-1"></i>REGI1STER</a></li>
+    <li class="nav-item py-0 py-lg-0 mb-0"><a href="./login.html" class="fs-7 d-md-block"><i class="icofont-ui-user me-1"></i>LOGIN</a></li>
+  </ul>
+</div>    <div class="container mt-md-10 mt-5 mb-md-10 mb-3">
       <h2 class="d-flex justify-content-between align-items-center border border-primary border-2 m-0 py-7 px-10">
         <span class="fs-md-1 fs-5">EVENT</span>
         <span class="fs-md-4 fs-8 noto-tc-serif fw-bold">所有活動</span>
       </h2>
     </div>
     <div class="container mb-9">
-      <div class="d-flex flex-wrap">
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          演出
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          音樂
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          舞蹈
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          戲劇
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          音樂會
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          課程講座
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          社群活動
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          研討會
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          電影
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          電音派對        
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          遊戲競賽
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
-          親子
-        </a>
+      <ul class="d-flex flex-wrap list-unstyled">
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            演出
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            音樂
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            舞蹈
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            戲劇
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            音樂會
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            課程講座
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            社群活動
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            研討會
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            電影
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            電音派對        
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            遊戲競賽
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8 mb-md-2">
+            親子
+          </a>
+        </li>
         
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          藝文活動
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          運動
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          交通旅遊
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          美食
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          資訊科技
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          聯誼        
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
-          戶外
-        </a>
-        <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 fs-9 fs-md-8 mb-2">
-          線上活動
-        </a>
-      </div>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            運動
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            交通旅遊
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            美食
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            資訊科技
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            聯誼        
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 mb-2 fs-9 fs-md-8">
+            戶外
+          </a>
+        </li>
+        <li>
+          <a href="#" class="d-block py-md-1 px-md-9 py-1 px-5 tags me-2 fs-9 fs-md-8 mb-2">
+            線上活動
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg modal-dialog-centered">
@@ -282,7 +336,7 @@
         </li>
       </ul>
     </div>
-      <div class="container pb-md-12 pb-11 border-bottom border-primary border-3" >
+      <div class="pb-md-12 pb-11 border-bottom border-primary border-3" >
         <nav aria-label="Page navigation example">
           <ul class="pagination d-flex justify-content-center noto-tc-serif mb-0">
             <li class="page-item me-2">
@@ -290,7 +344,7 @@
                 <span aria-hidden="true"><i class="d-block icofont-arrow-left arrow-left-icon"></i></span>
               </a>
             </li>
-            <li class="page-item me-2"><a class="page-link" href="#">1</a></li>
+            <li class="page-item me-2"><a class="page-link active" href="#">1</a></li>
             <li class="page-item me-2"><a class="page-link" href="#">2</a></li>
             <li class="page-item me-2"><a class="page-link" href="#">3</a></li>
             <li class="page-item me-2"><a class="page-link" href="#">4</a></li>
