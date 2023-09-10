@@ -1,6 +1,6 @@
 .date {
   padding: 48px 0;
-  h2 {
+  p {
     margin: 0px;
     font-size: 48px;
   }
@@ -8,13 +8,13 @@
 @include media-breakpoint-down(lg){
   .date{
     padding: 12px 24px;
-    h2 {
+    p {
       margin-bottom: 0;
       font-size: 22px;
     }
-    p {
-      font-size: 16px;
-    }
+    // p {
+    //   font-size: 16px;
+    // }
     }
 
   .time::before {

@@ -18,10 +18,22 @@
   }
 }
 .min-height{
-  min-height: calc(100vh - 87px);
+  min-height: calc(100vh - 87px - 106.5px);
 }
 @include media-breakpoint-down(md){
   .min-height{
-    min-height: calc(100vh - 84px);
+    min-height: calc(100vh - 84px - 64px);
+  }
+}
+.z-index-2{
+  z-index: 2;
+}
+@include media-breakpoint-down(lg){
+  .nav{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: block;
+    background: #f3f1e5;
   }
 }

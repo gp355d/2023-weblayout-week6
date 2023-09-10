@@ -17,15 +17,19 @@
 }
 .banner-outter{
   height: 518px;
-  h2{
+  p{
     left: 48px;
     top: 48px;
   }
-  p{
-    top: 0;
-  }
 }
-
+@include media-breakpoint-down(md){
+  .banner-outter{
+    p{
+      left: 40px;
+      top: 16px;
+    }
+  } 
+}
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
   content: 'next';
   font-size: 32px;
